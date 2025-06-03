@@ -7,6 +7,7 @@ import torch
 from torch.cuda import device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+
 def normalize_tensor(tensor):
     tensor_min = tensor.min()
     tensor_max = tensor.max()
@@ -165,6 +166,7 @@ class EinFFT(nn.Module):
         x = x.reshape(B, N, C)
         return x
 
+
 class CMambaBlockChannelAttention(nn.Module):
     def __init__(self, n_vars, reduction=2, avg_flag=True, max_flag=True):
         super(CMambaBlockChannelAttention, self).__init__()
@@ -194,6 +196,7 @@ class CMambaBlockChannelAttention(nn.Module):
         ans = self.sigmoid(out) * x
         ans = ans.reshape(batch_size, channels, d_model)
         return ans
+
 
 class CMambaBlock(nn.Module):
     def __init__(self, n_vars, reduction=2, avg_flag=True, max_flag=True):
