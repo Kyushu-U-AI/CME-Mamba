@@ -115,4 +115,6 @@ We are open to interdisciplinary dialogue and collaboration across diverse acade
 
 If you have any intended passion to collaborate with us, please feel free to contact us by emails.
 
-📮 [xiong.sijie.630@s.kyushu-u.ac.jp](xiong.sijie.630@s.kyushu-u.ac.jp)
+📮 [sijiexiongkyushu@gmail.com](sijiexiongkyushu@gmail.com)
+
+📮 [limu-staff@limu.ait.kyushu-u.ac.jp](limu-staff@limu.ait.kyushu-u.ac.jp)
