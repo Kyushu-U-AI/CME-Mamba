@@ -33,7 +33,7 @@
 - Electricity, ETT, PEMS datasets are provided. Users can get them after ▶️`git clone` our codehub.
 - As for Solar-Energy, Traffic, Weather datasets, please ▶️`unzip (extract here) Solar.zip/traffic.zip/weather.zip` at users' comfortable ways.
 
-🙏Our future work will contain more datasets, they probably will be sync updated here.
+🙏 Our future work will contain more datasets, they probably will be sync updated here.
 
 ## 🚀 Train and Evaluate CME-Mamba
 
