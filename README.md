@@ -78,6 +78,10 @@ To have any potential user a better vision of our work, we would like to present
 Herein, we take CME-Mamba related codes as an example.
 ![img.png](CodeFlows.png)
 
+The complete flow chart of the core algorithms is:
+
+![image.png](CompleteFlowChart.png)
+
 ## 🙏Acknowledgement
 
 We are sincerely grateful for the following awesome projects when implementing our CME-Mamba and they also inspire us to have CME-Mamba public to counterparts.
