@@ -12,7 +12,6 @@
 
 # 🌟 CME-Mamba
 
-![image.png](CME-MambaArchitecture.png)
 ![img.png](CME-MambaArchitecture.png)
 
 # 🏆 Contributions
