@@ -171,14 +171,6 @@ class Exp_Long_Term_Forecast(Exp_Basic):
                 if (i + 1) % 100 == 0:
                     print("\titers: {0}, epoch: {1} | loss: {2:.7f}".format(i + 1, epoch + 1, loss.item()))
                     speed = (time.time() - time_now) / iter_count
-                    # TODO if you want to compute memory and speed: Cancel!
-                    # print(speed)
-                    # allocated_memory = torch.cuda.memory_allocated() / (1024 * 1024 * 1024)
-                    # cached_memory = torch.cuda.memory_cached() / (1024 * 1024 * 1024)
-                    # total = allocated_memory + cached_memory
-                    # print('allocated_memory:', allocated_memory)
-                    # print('cached_memory:', cached_memory)
-                    # print('total:', total)
                     left_time = speed * ((self.args.train_epochs - epoch) * train_steps - i)
                     print('\tspeed: {:.4f}s/iter; left time: {:.4f}s'.format(speed, left_time))
                     iter_count = 0
